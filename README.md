@@ -99,6 +99,38 @@ You can get rid of all the sample-* folders & files once you clone the project. 
         jquery/
             jquery.d.ts
         tsd.d.ts
+	gulp.config.js
+	gulpfile.js
+	package.json
+	tsconfig.json
+	tsd.json
+	tslint.json
+	webpack.config.js
+
+Whew! That's a lot of files....here's what they all are/do:
+
+- `app` (and it's children): This is where all of your application's development files will be.
+- `test\spec` (and it's children): The unit test files.
+- `test\karma.conf.ts`: The Karma configuration file.
+- `typings\tsd.d.ts`: Your main type definition file.
+- `typings\*`: Each of the types defined. More can be added by running `tsd install -sro <library name>` in your project's root. 
+- `gulp.config.js`: A custom node module that emits a JSON with reusable values--mostly to adhere to a [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) principle.
+- `gulpfile.js`: The execution module for Gulp.
+- `package.json`: Your project's NPM package file.
+- `tsconfig.json`: The TypeScript configuration file.
+- `tsd.json`: The TypeScript Definition manage configuration file.
+- `tslint.json`: The JSON for the TypeScript linter rules to use.
+- `webpack.config.js`:  The webpack configuration file.
+
+### Auto-Created Folders
+
+There are also some folders that will be created during the lifecycle of your project:
+
+- `coverage`: This will be where your code coverage output files will live.
+- `dev`: The destination for your post-transpiled application during development. 
+- `dist`: The destination for your compiled application.
+- `node_modules`: Where your dependencies will live. Populates from `npm install`.
+- `transpiled`: Where the files end up post-transpilation from TypeScript -> JavaScript.
 
 ## Testing
 
