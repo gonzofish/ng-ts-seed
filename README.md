@@ -60,19 +60,31 @@ technologies that you could swap for another and some examples you could swap to
 
 ## Directory Layout
 
+You can get rid of all the sample-* folders & files once you clone the project. I wish I didn't have to do it this way, but git has no clean way of representing empty directories.
+
 	app/
 		components/
+			sample-component/
+				sample-component.html
+				sample-component.ts
 		scripts/
+			constants/
+				sample-constants.ts
 			filters/
+				sample-filter.ts
 			services/
+				sample-service.ts
 			app.ts
 		index.html
 	test/
-		karma.conf.js
+		karma.conf.ts
 		spec/
 			components/
+				sample-component.spec.ts
 			filters/
+				sample-filter.spec.ts
 			services/
+				sample-service.spec.ts
     typings/
         angularjs/
             angular-animate.d.ts
