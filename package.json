@@ -1,0 +1,28 @@
+{
+  "name": "ng-ts-seed",
+  "version": "1.0.0",
+  "description": "An Angular 1.x & TypeScript 1.5 Seed",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzofish/ng-ts-seed.git"
+  },
+  "keywords": [
+    "angular",
+    "typescript",
+    "ng",
+    "ts",
+    "seed",
+    "gulp",
+    "karma"
+  ],
+  "author": "Matt Fehskens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gonzofish/ng-ts-seed/issues"
+  },
+  "homepage": "https://github.com/gonzofish/ng-ts-seed#readme"
+}
