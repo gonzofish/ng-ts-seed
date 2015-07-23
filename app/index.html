@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <title>FA Tracker</title>
+
+        <meta content="width=device-width,initial-scale=1" name="viewport">
+
+        <link href="styles/main.css" rel="stylesheet">
+    </head>
+
+    <body layout="column" ng-app="fatApp" style="overflow: hidden">
+        <md-content layout="column" flex>
+            <div ng-view></div>
+        </md-content>
+
+        <script src="libraries/angular.js"></script>
+        <script src="libraries/angular-route.js"></script>
+
+
+        <script src="scripts/app.packed.js"></script>
+        <script src="scripts/templates.js"></script>
+    </body>
+</html>

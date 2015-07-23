@@ -7,7 +7,7 @@
     },
     "files": [
         "app/scripts/app.ts",
-        "app/components/sample-component/sample-component.ts",
+        "app/scripts/components/sample-component/sample-component.ts",
         "app/scripts/constants/sample-constants.ts",
         "app/scripts/filters/sample-filter.ts",
         "app/scripts/services/sample-service.ts",

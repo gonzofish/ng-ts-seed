@@ -11,10 +11,10 @@ module.exports = (function gulpConfig() {
         var details = config[compiledDir] = {
             dir: path.join(config.dir, compiledDir, '/')
         };
+        details.components = path.join(details.dir, 'components/');
         details.library = path.join(details.dir, 'library/');
         details.scripts = path.join(details.dir, 'scripts/');
         details.styles = path.join(details.dir, 'styles/');
-        details.scripts = path.join(details.dir, 'scripts/');
     }
 
     function generateLibraries(libraries, libraryDir) {
@@ -29,12 +29,12 @@ module.exports = (function gulpConfig() {
     config.app = {
         dir: path.join(config.dir, 'app/')
     };
+    config.app.scriptsDir = path.join(config.app.dir, 'scripts/');
     config.app.components = {
-        dir: path.join(config.app.dir, 'components/')
+        dir: path.join(config.app.scriptsDir, 'components/')
     };
     config.app.components.html = path.join(config.app.components.dir, '*/*.html');
     config.app.components.tsFiles = path.join(config.app.components.dir, '*/*.ts');
-    config.app.scriptsDir = path.join(config.app.dir, 'scripts/');
     config.app.entry = path.join(config.app.scriptsDir, 'app.ts');
     config.app.tsFiles = path.join(config.app.scriptsDir, '**/*.ts');
 
