@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "removeComments": true,
+        "sourceMap": true,
+        "target": "ES5"
+    },
+    "files": [
+        "app/scripts/app.ts",
+        "app/components/sample-component/sample-component.ts",
+        "app/scripts/constants/sample-constants.ts",
+        "app/scripts/filters/sample-filter.ts",
+        "app/scripts/services/sample-service.ts",
+        "typings/tsd.d.ts"
+    ]
+}
