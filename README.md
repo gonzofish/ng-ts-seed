@@ -63,11 +63,11 @@ technologies that you could swap for another and some examples you could swap to
 You can get rid of all the sample-* folders & files once you clone the project. I wish I didn't have to do it this way, but git has no clean way of representing empty directories.
 
 	app/
-		components/
-			sample-component/
-				sample-component.html
-				sample-component.ts
 		scripts/
+			components/
+				sample-component/
+					sample-component.html
+					sample-component.ts
 			constants/
 				sample-constants.ts
 			filters/
