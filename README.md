@@ -1,5 +1,4 @@
 # ng-ts-seed
-<<<<<<< HEAD
 
 Angular 1.x & TypeScript 1.5+ together at last.
 
@@ -46,8 +45,7 @@ technologies that you could swap for another and some examples you could swap to
     I definitely think the nested concept of ui-router is great, but I don't know enough about ui-router to use it effectively.
 - Gulp -> Broccoli, Brunch, Grunt
     I personally like Gulp because it is concise and fast. I used to love Grunt, times change.
-- Jasmine -> Mocha, QUint
-- NPM -> Bower, jspm
+    - NPM -> Bower, jspm
     While just about everyone uses NPM for development dependencies, I also use it for managing my deployment dependencies.
 - wepack -> browserify, System.js
     I tried System.js & browserify for this...wepack just clicked for me and I haven't looked back since.
@@ -67,34 +65,3 @@ technologies that you could swap for another and some examples you could swap to
 			components/
 			filters/
 			services/
-
-## Testing
-
-All that's been set up here are unit tests. The tests are run using the [Karma Test Runner](http://karma-runner.github.io/0.13/index.html) and the tests are written in [Jasmine 2](http://jasmine.github.io/2.3/introduction.html).
-
-To run the tests, you just call
-
-	gulp test
-
-If you want to do a browser-based file-watching testing, call
-
-	gulp test --watch
-
-## Serving the Site
-
-If you want to actually use the site, just call
-
-	gulp serve
-
-If you want to serve the [distribution build](#building-the-site-for-distribution) of the site, call
-
-	gulp serve --dist
-
-## Building the Site for Distribution
-
-To build the site minified and packed for delivery, call
-
-	gulp dist
-=======
-An Angular 1.x + TypeScript 1.5+ Seed Project
->>>>>>> e9780cd91c45fb43d6dac34bf110388e345698b8
