@@ -1,4 +1,5 @@
 # ng-ts-seed
+<<<<<<< HEAD
 
 Angular 1.x & TypeScript 1.5+ together at last.
 
@@ -94,3 +95,6 @@ If you want to serve the [distribution build](#building-the-site-for-distributio
 To build the site minified and packed for delivery, call
 
 	gulp dist
+=======
+An Angular 1.x + TypeScript 1.5+ Seed Project
+>>>>>>> e9780cd91c45fb43d6dac34bf110388e345698b8
