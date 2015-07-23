@@ -17,8 +17,6 @@ module.exports = function karmaConfig(config) {
     preprocessors[gulpConfig.app.tsFiles] = ['webpack', 'sourcemap'];
     // component HTML files
     preprocessors[gulpConfig.app.componentHtml] = ['ng-html2js'];
-    // test files
-    preprocessors[gulpConfig.test.specs] = ['webpack', 'sourcemap'];
 
     config.set({
         autoWatch: false,

@@ -80,11 +80,11 @@ You can get rid of all the sample-* folders & files once you clone the project. 
 		karma.conf.ts
 		spec/
 			components/
-				sample-component.spec.ts
+				sample-component.spec.js
 			filters/
-				sample-filter.spec.ts
+				sample-filter.spec.js
 			services/
-				sample-service.spec.ts
+				sample-service.spec.js
     typings/
         angularjs/
             angular-animate.d.ts
@@ -110,7 +110,7 @@ You can get rid of all the sample-* folders & files once you clone the project. 
 Whew! That's a lot of files....here's what they all are/do:
 
 - `app` (and it's children): This is where all of your application's development files will be.
-- `test\spec` (and it's children): The unit test files.
+- `test\spec` (and it's children): The unit test files. These are .js files because tests should be simple and not a potential point-of-failure.
 - `test\karma.conf.ts`: The Karma configuration file.
 - `typings\tsd.d.ts`: Your main type definition file.
 - `typings\*`: Each of the types defined. More can be added by running `tsd install -sro <library name>` in your project's root. 

@@ -49,6 +49,7 @@ gulp.task('test', ['lint'], function testTask(callback) {
 
     if (argv.watch) {
         _.merge(karmaConf, config.test.karma.watch);
+        karmaConf.reporters = [];
     }
 
     karma.start(karmaConf, callback);

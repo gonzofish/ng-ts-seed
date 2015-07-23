@@ -92,7 +92,7 @@ module.exports = (function gulpConfig() {
         }
     };
     config.test.specsDir = path.join(config.test.dir, 'spec/');
-    config.test.specs = path.join(config.test.specsDir, '**/*.ts');
+    config.test.specs = path.join(config.test.specsDir, '**/*.js');
 
     config.transpile = {
         dir: path.join(config.dir, 'transpiled/'),
