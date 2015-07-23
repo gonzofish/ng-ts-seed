@@ -10,14 +10,21 @@ not worry themselves running through the trials & tribulations that I did to get
 
 ## How?
 
-You can be up and running in just *3 easy steps*!
+You can be up and running in just *4 easy steps*!
 
 1. **You'll need two pieces of software**
 
 	- git: http://git-scm.com/
 	- Node.js: http://nodejs.org/
 
-2. **Clone the project**
+2. Install global Node modules
+
+		npm i -g gulp tsd
+
+	- `gulp`: is for using Gulp
+	- `tsd`: is the [TypeScript Definition manager](http://definitelytyped.org/tsd/) for Definitely Typed. These typings will be used when transpiling your TypeScript files. Additionally it is great for tooling. See [DefinitleyTyped](http://definitelytyped.org/) for more information.
+
+3. **Clone the project**
 
 	- With full history:
 
@@ -29,7 +36,7 @@ You can be up and running in just *3 easy steps*!
 
 	    The `depth=1` just tells git to pull the history through the last commit only.
 
-3. **Install the dependencies**
+4. **Install the dependencies**
 
 		npm install
 
@@ -66,6 +73,20 @@ technologies that you could swap for another and some examples you could swap to
 			components/
 			filters/
 			services/
+    typings/
+        angularjs/
+            angular-animate.d.ts
+            angular-cookes.d.ts
+            angular-mocks.d.ts
+            angular-resource.d.ts
+            angular-route.d.ts
+            angular-sanitize.d.ts
+            angular.d.ts
+        jasmine/
+            jasmine.d.ts
+        jquery/
+            jquery.d.ts
+        tsd.d.ts
 
 ## Testing
 

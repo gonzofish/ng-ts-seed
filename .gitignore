@@ -1,0 +1,5 @@
+.settings
+coverage
+dist
+node_modules
+transpiled
